@@ -56,10 +56,10 @@ def file_processing(file_path):
     prompt_template = """
     You are an expert at creating questions based on materials and documentation.
     You do this by asking questions about the text below:
-    ------------
+
     {text}
-    ------------
-    Create a 10-question quiz that will help study for their tests.
+
+    Create a quiz that will help study for their tests.
     Make sure not to lose any important information.
     QUESTIONS:
     """
@@ -69,9 +69,9 @@ def file_processing(file_path):
     You are an expert at creating practice questions based on material and documentation.
     We have received some practice questions to a certain extent: {existing_answer}.
     We have the option to refine the existing questions or add new ones (only if necessary) with some more context below.
-    ------------
+
     {text}
-    ------------
+
     Given the new context, refine the original questions in English.
     If the context is not helpful, please provide the original questions.
     QUESTIONS:
