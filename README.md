@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to the QuizNotes project! This GitHub repository contains a tool that leverages Hugging Face models, LangChain, Streamlit, and FAISS to generate quizzes based on imported class notes. This project aims to simplify the process of creating interactive and engaging quizzes for educational purposes.
+This GitHub repository contains a tool that leverages Hugging Face models, LangChain, Streamlit, and FAISS to generate quizzes based on imported class notes. This project was initiated as a personal challenge to learn and apply skills in natural language processing (NLP) and understand how to work with big datasets provided by Hugging Face.
 
 ## Features
 
@@ -45,5 +45,3 @@ Welcome to the QuizNotes project! This GitHub repository contains a tool that le
 ## Contributing
 
 Contributions are welcome! If you have ideas for improvements, bug fixes, or new features, please open an issue or submit a pull request.
-
-Happy quizzing! 📚🎓
